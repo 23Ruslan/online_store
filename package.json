@@ -1,0 +1,19 @@
+{
+  "name": "my_website",
+  "version": "1.0.0",
+  "description": "241",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./style.scss style.css --watch"
+  },
+  "author": "23Ruslan",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "124"
+  },
+  "keywords": [
+    "124"
+  ]
+}

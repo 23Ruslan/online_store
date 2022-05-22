@@ -1,0 +1,33 @@
+#top-sale{
+    .owl-carousel .item .product a{
+        overflow: hidden;
+    }
+    .owl-carousel .item .product img:hover{
+        transform: scale(1.2);
+    }
+    .owl-carousel .owl-nav button{
+       outline: none;
+       position: absolute;
+       top: 27%;
+    }
+    .owl-carousel .item .product img{
+        transition: transform .6s ease-out;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        left: 0;
+    }
+    .owl-carousel .owl-nav button.owl-next span, .owl-carousel .owl-nav button.owl-prev span {
+        font-size: 36px;
+        color: $color-primary;
+        padding: 0 2rem;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+        right: 0;
+    }
+    .owl-carousel .owl-nav button.owl-prev span{
+        margin-left: -3rem;
+    }
+    .owl-carousel .owl-nav button.owl-next span{
+        margin-right: -3rem;
+    }
+}
