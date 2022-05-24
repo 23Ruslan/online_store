@@ -1,10 +1,10 @@
 <?php
 ob_start();
 include('header.php');
-include('Template/_banner-area.php');
-include('Template/_top-sale.php');
-include('Template/_blogs.php');
-include('Template/_new-laptops.php');
-include('Template/_special-price.php');
-include('Template/_banner-ads.php');
+include('template/_banner-area.php');
+include('template/_top-sale.php');
+include('template/_blogs.php');
+include('template/_new-laptops.php');
+include('template/_special-price.php');
+include('template/_banner-ads.php');
 include('footer.php'); ?>

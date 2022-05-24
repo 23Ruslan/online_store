@@ -13,7 +13,7 @@ class Product
                 while ($item = mysqli_fetch_array($result, MYSQLI_ASSOC)){
                     $resultArray[] = $item;
                 }
-                while(mysqli_next_result($this->db->con)){;}
+                while(mysqli_more_results($this->db->con) ? mysqli_next_result($this->db->con) : false){;}
                 return $resultArray;
             }
         }

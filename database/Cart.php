@@ -71,7 +71,7 @@ class Cart
             $query = "INSERT INTO {$saveTable} SELECT * FROM {$fromTable} WHERE item_id={$item_id};";
             $query .= "DELETE FROM {$fromTable} WHERE item_id={$item_id};";
             $result = $this->db->con->multi_query($query);
-            while(mysqli_next_result($this->db->con)){;}
+            while(mysqli_more_results($this->db->con) ? mysqli_next_result($this->db->con) : false){;}
             if($result){
                 header("Refresh: 0"); // reload page, because when adding in cart.php, _cart-template.php we have higher than _wishlist_template.php,
             } // and without reload, new _cart-template.php data will not appear

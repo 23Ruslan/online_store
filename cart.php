@@ -10,11 +10,11 @@ if (!isset($_COOKIE['id'])) {
 }
 ?>
 <?php
-count($product->getData('cart')) ? include ('Template/_cart-template.php') :
-    include ('Template/notFound/_cart_notFound.php');
-count($product->getData('wishlist')) ? include ('Template/_wishlist_template.php') :
-    include ('Template/notFound/_wishlist_notFound.php');
-include ('Template/_new-laptops.php');
+count($product->getData('cart')) ? include ('template/_cart-template.php') :
+    include ('template/notFound/_cart_notFound.php');
+count($product->getData('wishlist')) ? include ('template/_wishlist_template.php') :
+    include ('template/notFound/_wishlist_notFound.php');
+include ('template/_new-laptops.php');
 ?>
 <?php
 include ('footer.php');
