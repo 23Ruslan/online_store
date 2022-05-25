@@ -29,7 +29,7 @@ body {
 linear infinite;-o-animation: change-background 5s linear infinite;animation: change-background 5s linear infinite;">
     <div class="strip d-flex justify-content-between px-3 py-2">
         <div class="font-rale font-size-14">
-            <a href="cart.php#wishlist" class="px-3 border-right text-dark">Wishlist —<?php echo ' '.count($product->getData('wishlist')); ?></a>
+            <a href="cart.php#wishlist" class="px-3 border-right text-dark">Your wishlist —<?php echo ' '.count($product->getData('wishlist')); ?></a>
             <a href="login1.php" class="px-3 border-right border-left text-dark">Login for user</a>
             <a href="loginForAdmin.php" class="px-3 border-right border-left text-dark">Administrator login</a>
             <a href="logout.php" class="px-3 border-left text-dark">Logout for user or administrator</a>
@@ -78,10 +78,11 @@ blinker 3s linear infinite;animation: blinker 3s linear infinite;"><b>Laptop sto
         <li><a href="index.php#blogs">Our Blogs</a>
         <li><a href="index.php#new-phones">NEW</a>
         <li><a href="login1.php"><em> Hello! <?php echo ' '; echo $_COOKIE['user'] ?? "";?></em></a>
-        <li><a href="cart.php#wishlist">wishlist —<?php echo ' '.count($product->getData('wishlist')); ?></a>
+        <li><a href="cart.php#wishlist">Your wishlist —<?php echo ' '.count($product->getData('wishlist')); ?></a>
         <li><a href="login1.php">Login for user</a>
         <li><a href="loginForAdmin.php">Administrator login</a>
-        <li><a href="logout.php">Logout for user or administrator</a> 
+        <li><a href="logout.php">Logout for user or administrator</a>
+        <li><a href="cart.php">Shopping cart</a> 
         </ul>
     </nav>
 </header>

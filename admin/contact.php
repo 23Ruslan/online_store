@@ -10,7 +10,7 @@
 <div style="text-align:center">
     <h1>Edit contacts</h1>
     <?php if(!empty($_SESSION["login"])) :?>
-        <?php echo "Добрый день, ".$_SESSION['login']; ?>
+        <?php echo "Hello, ".$_SESSION['login']; ?>
         <br> <br>
         <a href="../logout.php">Exit</a>
     <br> <br>

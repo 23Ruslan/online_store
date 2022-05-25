@@ -7,10 +7,10 @@
             <div class="col-lg-3 col-12">
                 <h4 class="font-rubik font-size-20">Laptop Store</h4>
                 <p class="font-size-14 font-rale">Find cutting-edge tech for less. Discover the easy way to compare products, 
-                    read reviews & pick the perfect kit.</p>
+                    read reviews & pick the perfect kit.</p><br><br>
             </div>
             <div class="col-lg-4 col-12">
-                <h4 class="font-rubik font-size-16">news</h4>
+                <h4 class="font-rubik font-size-16"><b><em>N E W S</em></b></h4>
                 <form class="form-row">
                     <div class="col">
                         <input type="text" class="form-control" placeholder="Your email">
@@ -18,7 +18,7 @@
                     <div class="col">
                         <button type="submit" class="btn btn-primary mb-2">Subscribe me</button>
                     </div>
-                </form>
+                </form><br><br>
             </div>
             <div class="col-lg-4 col-12">
                 <h4 class="font-rubik font-size-16"><b><em>Our contacts</em></b></h4>
